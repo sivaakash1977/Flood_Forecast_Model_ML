@@ -1,0 +1,28 @@
+@relation RainfallTestingDataset
+
+@attribute Precipitation numeric
+@attribute MinimumTemp numeric
+@attribute AverageTemp numeric
+@attribute MaximumTemp numeric
+@attribute CloudCover numeric
+@attribute VapourPressure numeric
+@attribute WetDayFrequency numeric
+@attribute DiurnalTemperature numeric
+@attribute GroundFrostFreq numeric
+@attribute ReferenceCropEvapotranspiration numeric
+@attribute PotentialEvapotranspiration numeric
+@attribute class {0,1}
+
+@data
+21.727,22.001,26.148,30.317,37.824,24.873,1.8246,8.293,0,3.61,5.07,1
+1.833,22.038,26.609,31.186,23.5,24.032,1.2046,9.148,0,4.17,5.92,1
+0.103,24.307,29.04,33.813,27.029,26.469,0.103,9.449,0,4.93,6.45,1
+2.25,26.527,30.917,35.284,28.666,29.266,1.0065,8.756,0,5.18,6.56,0
+75.328,27.142,31.983,36.813,50.626,30.845,3.511,9.668,0,5.61,6.64,0
+23.247,26.495,31.22,35.969,71.498,28.933,1.9079,9.475,0,5.46,6.2,0
+0.481,24.672,29.372,34.147,28.051,27.546,0.4735,9.449,0,4.95,6.46,1
+58.934,25.877,30.246,34.636,38.952,29.266,2.5066,8.756,0,5.1,6.38,0
+20.65,27.187,32.025,36.856,47.664,31.44,1.9818,9.668,0,5.62,6.69,0
+114.17,25.954,30.677,35.427,76.487,28.756,3.9656,9.475,0,5.41,6.1,0
+72.53,25.804,30.373,34.941,75.568,28.369,4.3459,9.137,0,5.26,6.01,0
+50.257,24.878,29.388,33.904,70.831,28.952,3.5455,9.006,0,5.14,6,0

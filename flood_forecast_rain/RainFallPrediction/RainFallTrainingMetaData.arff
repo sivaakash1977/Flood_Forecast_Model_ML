@@ -1,0 +1,16 @@
+@relation 'RainfallTrainingDataset'
+
+@attribute Precipitation real
+@attribute MinimumTemp real
+@attribute AverageTemp real
+@attribute MaximumTemp real
+@attribute CloudCover real
+@attribute VapourPressure real
+@attribute WetDayFrequency real
+@attribute DiurnalTemperature real
+@attribute GroundFrostFreq real
+@attribute ReferenceCropEvapotranspiration real
+@attribute PotentialEvapotranspiration real
+@attribute class {0,1}
+
+@data
